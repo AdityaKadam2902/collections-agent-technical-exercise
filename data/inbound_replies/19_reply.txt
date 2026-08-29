@@ -1,0 +1,10 @@
+From: lucia.ferrari@woodvale.com
+Date: 2026-08-24
+Subject: Remittance advice - INV-2430
+
+Remittance advice attached for payment run 24 August.
+
+  INV-2430    15,018.00
+  INV-9999      1,200.00
+
+Total transmitted: 16,218.00

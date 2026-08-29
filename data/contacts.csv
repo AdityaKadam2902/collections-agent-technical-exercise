@@ -1,0 +1,73 @@
+customer_id,side,contact_type,name,email,title
+C-01,customer,ap_contact,Dana Reyes,dana.reyes@halvorsen.com,Accounts Payable
+C-01,customer,controller,Alan Draper,alan.draper@halvorsen.com,Financial Controller
+C-01,customer,ceo,Nils Halvorsen,nils.halvorsen@halvorsen.com,Chief Executive Officer
+C-01,customer,owner,Ingrid Halvorsen,ingrid.halvorsen@halvorsen.com,Owner / Managing Partner
+C-01,provider,sales_owner,Elena Duarte,elena.duarte@provider.example,Account Director
+C-01,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-02,customer,ap_contact,Marcus Whitfield,marcus.whitfield@cormack.com,Accounts Payable
+C-02,customer,controller,Marta Vance,marta.vance@cormack.com,Financial Controller
+C-02,customer,ceo,Deborah Cormack,deborah.cormack@cormack.com,Chief Executive Officer
+C-02,customer,owner,Peter Cormack,peter.cormack@cormack.com,Owner / Managing Partner
+C-02,provider,sales_owner,Josh Kirby,josh.kirby@provider.example,Account Director
+C-02,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-03,customer,ap_contact,Ilse Bakker,ilse.bakker@perrin.com,Accounts Payable
+C-03,customer,controller,Ken Osei,ken.osei@perrin.com,Financial Controller
+C-03,customer,ceo,Anil Perrin,anil.perrin@perrin.com,Chief Executive Officer
+C-03,customer,owner,Anil Perrin,anil.perrin@perrin.com,Owner / Managing Partner
+C-03,provider,sales_owner,Priya Raman,priya.raman@provider.example,Account Director
+C-03,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-04,customer,ap_contact,Ravi Menon,ravi.menon@vantage.com,Accounts Payable
+C-04,customer,controller,Sofia Bell,sofia.bell@vantage.com,Financial Controller
+C-04,customer,ceo,Frank Vantage,frank.vantage@vantage.com,Chief Executive Officer
+C-04,customer,owner,Frank Vantage,frank.vantage@vantage.com,Owner / Managing Partner
+C-04,provider,sales_owner,Elena Duarte,elena.duarte@provider.example,Account Director
+C-04,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-05,customer,ap_contact,Tom Ashworth,tom.ashworth@ardley.com,Accounts Payable
+C-05,customer,controller,Greg Nkemdirim,greg.nkemdirim@ardley.com,Financial Controller
+C-05,customer,ceo,Margaret Ardley,margaret.ardley@ardley.com,Chief Executive Officer
+C-05,customer,owner,Robert Ardley,robert.ardley@ardley.com,Owner / Managing Partner
+C-05,provider,sales_owner,Josh Kirby,josh.kirby@provider.example,Account Director
+C-05,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-06,customer,ap_contact,Grace Oduya,grace.oduya@northbrook.com,Accounts Payable
+C-06,customer,controller,Hana Sato,hana.sato@northbrook.com,Financial Controller
+C-06,customer,ceo,Tobias Brant,tobias.brant@northbrook.com,Chief Executive Officer
+C-06,customer,owner,Tobias Brant,tobias.brant@northbrook.com,Owner / Managing Partner
+C-06,provider,sales_owner,Priya Raman,priya.raman@provider.example,Account Director
+C-06,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-07,customer,ap_contact,Peter Lindgren,peter.lindgren@saltmarsh.com,Accounts Payable
+C-07,customer,controller,Bill Ravenhill,bill.ravenhill@saltmarsh.com,Financial Controller
+C-07,customer,ceo,Elaine Saltmarsh,elaine.saltmarsh@saltmarsh.com,Chief Executive Officer
+C-07,customer,owner,Elaine Saltmarsh,elaine.saltmarsh@saltmarsh.com,Owner / Managing Partner
+C-07,provider,sales_owner,Elena Duarte,elena.duarte@provider.example,Account Director
+C-07,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-08,customer,ap_contact,Nadia Haddad,nadia.haddad@kesteven.com,Accounts Payable
+C-08,customer,controller,Yusuf Aziz,yusuf.aziz@kesteven.com,Financial Controller
+C-08,customer,ceo,Karim Kesteven,karim.kesteven@kesteven.com,Chief Executive Officer
+C-08,customer,owner,Harold Kesteven,harold.kesteven@kesteven.com,Owner / Managing Partner
+C-08,provider,sales_owner,Josh Kirby,josh.kirby@provider.example,Account Director
+C-08,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-09,customer,ap_contact,Owen Pryce,owen.pryce@dunmore.com,Accounts Payable
+C-09,customer,controller,Claire Moreau,claire.moreau@dunmore.com,Financial Controller
+C-09,customer,ceo,Judith Dunmore,judith.dunmore@dunmore.com,Chief Executive Officer
+C-09,customer,owner,Judith Dunmore,judith.dunmore@dunmore.com,Owner / Managing Partner
+C-09,provider,sales_owner,Priya Raman,priya.raman@provider.example,Account Director
+C-09,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-10,customer,ap_contact,Beth Calder,beth.calder@thackeray.com,Accounts Payable
+C-10,customer,controller,Ed Stubbs,ed.stubbs@thackeray.com,Financial Controller
+C-10,customer,ceo,Roland Thackeray,roland.thackeray@thackeray.com,Chief Executive Officer
+C-10,customer,owner,Roland Thackeray,roland.thackeray@thackeray.com,Owner / Managing Partner
+C-10,provider,sales_owner,Elena Duarte,elena.duarte@provider.example,Account Director
+C-10,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-11,customer,ap_contact,Sam Ito,sam.ito@ingleby.com,Accounts Payable
+C-11,customer,controller,Rosa Quinn,rosa.quinn@ingleby.com,Financial Controller
+C-11,customer,ceo,Mei Ingleby,mei.ingleby@ingleby.com,Chief Executive Officer
+C-11,customer,owner,Mei Ingleby,mei.ingleby@ingleby.com,Owner / Managing Partner
+C-11,provider,sales_owner,Josh Kirby,josh.kirby@provider.example,Account Director
+C-11,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections
+C-12,customer,ap_contact,Lucia Ferrari,lucia.ferrari@woodvale.com,Accounts Payable
+C-12,customer,controller,Vik Larsen,vik.larsen@woodvale.com,Financial Controller
+C-12,customer,ceo,Stefan Woodvale,stefan.woodvale@woodvale.com,Chief Executive Officer
+C-12,customer,owner,Stefan Woodvale,stefan.woodvale@woodvale.com,Owner / Managing Partner
+C-12,provider,sales_owner,Priya Raman,priya.raman@provider.example,Account Director
+C-12,provider,collections,Ana Belova,ana.belova@provider.example,AR / Collections

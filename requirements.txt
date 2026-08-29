@@ -1,0 +1,12 @@
+# No third-party dependencies.
+#
+# Everything here runs on Python 3.11+ stdlib (csv, datetime, dataclasses,
+# re, tomllib, argparse, json). This was a deliberate choice, not an
+# oversight: a take-home exercise that says "if it does not run on our
+# machine, it does not count" is a hint to minimize what can go wrong on
+# someone else's machine. Zero pip installs means zero dependency-resolution
+# failures, zero version drift, nothing to pin.
+#
+# If this grows a real notification/email-sending integration later, that's
+# where a pinned dependency (e.g. an SDK for the outbound mail provider)
+# would actually earn its place.

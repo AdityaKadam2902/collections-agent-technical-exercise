@@ -1,0 +1,45 @@
+invoice_id,customer_id,customer_name,amount,due_date,days_to_due,risk_band,reasons
+INV-2177,C-05,Ardley & Sons,314.14,2026-07-13,-44,high,"100% of this customer's past invoices paid late (avg 70d late); already 44 days past due; agent currently holding this invoice: reply 07_reply classified as hostile (language indicating frustration/relationship risk, independent of payment content); automated cadence frozen for INV-2177 pending human resolution"
+INV-2356,C-10,Thackeray Advisory,18989.52,2026-07-21,-36,high,"100% of this customer's past invoices paid late (avg 36d late); already 36 days past due; agent currently holding this invoice: reply 04_reply classified as dispute (customer disputes the amount, hours, or rate on the invoice); automated cadence frozen for INV-2356 pending human resolution"
+INV-2122,C-03,Perrin Life Sciences,24731.97,2026-07-28,-29,high,53% of this customer's past invoices paid late (avg 23d late); already 29 days past due; agent currently holding this invoice: reply 11_reply classified as legal_escalation (customer has routed the matter to legal); automated cadence frozen for INV-2122 pending human resolution
+INV-2087,C-02,Cormack Retail Group,9952.53,2026-08-01,-25,high,100% of this customer's past invoices paid late (avg 25d late); already 25 days past due; agent currently holding this invoice: reply 03_reply: customer claims payment; reconciliation=unverified
+INV-2178,C-05,Ardley & Sons,269.57,2026-08-04,-22,high,100% of this customer's past invoices paid late (avg 70d late); already 22 days past due; agent currently holding this invoice: reply 14_reply classified as payment_plan_request (customer is proposing partial/staged payment); automated cadence frozen for INV-2178 pending human resolution
+INV-2267,C-07,Saltmarsh Media,7101.18,2026-08-06,-20,high,100% of this customer's past invoices paid late (avg 21d late); already 20 days past due; agent currently holding this invoice: reply 05_reply classified as payment_plan_request (customer is proposing partial/staged payment); automated cadence frozen for INV-2267 pending human resolution
+INV-2121,C-03,Perrin Life Sciences,31165.01,2026-08-11,-15,high,53% of this customer's past invoices paid late (avg 23d late); already 15 days past due
+INV-2085,C-02,Cormack Retail Group,10664.57,2026-08-12,-14,high,"100% of this customer's past invoices paid late (avg 25d late); already 14 days past due; agent currently holding this invoice: reply 13_reply classified as wrong_reference (customer disputes the invoice/PO identifier itself, not the underlying debt); automated cadence frozen for INV-2085 pending human resolution"
+INV-2086,C-02,Cormack Retail Group,8797.11,2026-08-14,-12,high,100% of this customer's past invoices paid late (avg 25d late); already 12 days past due
+INV-2124,C-03,Perrin Life Sciences,37685.06,2026-08-19,-7,high,53% of this customer's past invoices paid late (avg 23d late); already 7 days past due
+INV-2268,C-07,Saltmarsh Media,6768.87,2026-08-20,-6,high,100% of this customer's past invoices paid late (avg 21d late); already 6 days past due; agent currently holding this invoice: reply 18_reply classified as ambiguous (reply body carries no interpretable content (e.g. a bare '?')); automated cadence frozen for INV-2268 pending human resolution
+INV-2229,C-06,Northbrook Health,26801.74,2026-09-01,6,high,28% of this customer's past invoices paid late; due within 6 days; agent currently holding this invoice: reply 16_reply classified as document_request (customer needs a document before they will action payment); automated cadence frozen for INV-2229 pending human resolution
+INV-2357,C-10,Thackeray Advisory,13915.41,2026-09-01,6,high,100% of this customer's past invoices paid late (avg 36d late); due within 6 days; agent currently holding this invoice: reply 17_reply classified as document_request (customer needs a document before they will action payment); automated cadence frozen for INV-2357 pending human resolution
+INV-2431,C-12,Woodvale Systems,11706.36,2026-09-08,13,high,73% of this customer's past invoices paid late (avg 23d late); agent currently holding this invoice: reply 08_reply classified as acknowledged_uncategorized (reply text did not match a known pattern -- treat as needing human read); automated cadence frozen for INV-2431 pending human resolution
+INV-2430,C-12,Woodvale Systems,15018.00,2026-09-09,14,high,"73% of this customer's past invoices paid late (avg 23d late); agent currently holding this invoice: reply 19_reply: remittance advice for INV-2430; reconciliation=pending, held for AR to confirm receipt"
+INV-2287,C-08,Kesteven Industrial,72054.53,2026-08-27,1,medium,100% of this customer's past invoices paid late (avg 15d late); due within 1 days
+INV-2090,C-02,Cormack Retail Group,7159.84,2026-08-31,5,medium,100% of this customer's past invoices paid late (avg 25d late); due within 5 days
+INV-2033,C-01,Halvorsen Logistics,18548.72,2026-09-01,6,medium,"clean payment history (0% late historically); due within 6 days; agent currently holding this invoice: reply 12_reply classified as wrong_reference (customer disputes the invoice/PO identifier itself, not the underlying debt); automated cadence frozen for INV-2033 pending human resolution"
+INV-2089,C-02,Cormack Retail Group,9977.71,2026-09-02,7,medium,100% of this customer's past invoices paid late (avg 25d late); due within 7 days
+INV-2123,C-03,Perrin Life Sciences,34814.46,2026-09-04,9,medium,53% of this customer's past invoices paid late (avg 23d late)
+INV-2269,C-07,Saltmarsh Media,6440.05,2026-09-05,10,medium,100% of this customer's past invoices paid late (avg 21d late)
+INV-2377,C-11,Ingleby Transport,24021.85,2026-09-07,12,medium,31% of this customer's past invoices paid late; agent currently holding this invoice: reply 09_reply classified as bounce (delivery-failure signal in sender/subject/body); automated cadence frozen for INV-2377 pending human resolution
+INV-2358,C-10,Thackeray Advisory,15098.72,2026-09-08,13,medium,100% of this customer's past invoices paid late (avg 36d late)
+INV-2432,C-12,Woodvale Systems,8663.34,2026-09-13,18,medium,73% of this customer's past invoices paid late (avg 23d late)
+INV-2270,C-07,Saltmarsh Media,7288.97,2026-09-15,20,medium,100% of this customer's past invoices paid late (avg 21d late)
+INV-2179,C-05,Ardley & Sons,245.10,2026-09-18,23,medium,100% of this customer's past invoices paid late (avg 70d late)
+INV-2288,C-08,Kesteven Industrial,78678.57,2026-09-18,23,medium,100% of this customer's past invoices paid late (avg 15d late)
+INV-2161,C-04,Vantage Metalworks,7045.90,2026-09-22,27,medium,"47% of this customer's past invoices paid late; agent currently holding this invoice: reply 20_reply classified as wrong_reference (customer disputes the invoice/PO identifier itself, not the underlying debt); automated cadence frozen for INV-2161 pending human resolution"
+INV-2088,C-02,Cormack Retail Group,8810.58,2026-09-23,28,medium,100% of this customer's past invoices paid late (avg 25d late)
+INV-2360,C-10,Thackeray Advisory,13046.71,2026-09-25,30,medium,100% of this customer's past invoices paid late (avg 36d late)
+INV-2125,C-03,Perrin Life Sciences,17543.97,2026-09-29,34,medium,53% of this customer's past invoices paid late (avg 23d late)
+INV-2126,C-03,Perrin Life Sciences,34177.59,2026-10-01,36,medium,53% of this customer's past invoices paid late (avg 23d late)
+INV-2359,C-10,Thackeray Advisory,10049.40,2026-10-05,40,medium,100% of this customer's past invoices paid late (avg 36d late)
+INV-2180,C-05,Ardley & Sons,329.62,2026-10-21,56,medium,100% of this customer's past invoices paid late (avg 70d late)
+INV-2324,C-09,Dunmore Foods,6758.56,2026-09-07,12,low,38% of this customer's past invoices paid late
+INV-2034,C-01,Halvorsen Logistics,25319.36,2026-09-10,15,low,clean payment history (0% late historically)
+INV-2162,C-04,Vantage Metalworks,12659.32,2026-09-16,21,low,47% of this customer's past invoices paid late
+INV-2323,C-09,Dunmore Foods,9765.80,2026-09-16,21,low,38% of this customer's past invoices paid late
+INV-2232,C-06,Northbrook Health,21017.91,2026-09-22,27,low,28% of this customer's past invoices paid late
+INV-2035,C-01,Halvorsen Logistics,10790.74,2026-09-28,33,low,clean payment history (0% late historically)
+INV-2036,C-01,Halvorsen Logistics,24842.03,2026-10-03,38,low,clean payment history (0% late historically)
+INV-2234,C-06,Northbrook Health,27473.79,2026-10-06,41,low,28% of this customer's past invoices paid late
+INV-2233,C-06,Northbrook Health,25303.99,2026-10-09,44,low,28% of this customer's past invoices paid late
+INV-2378,C-11,Ingleby Transport,17815.97,2026-10-19,54,low,31% of this customer's past invoices paid late

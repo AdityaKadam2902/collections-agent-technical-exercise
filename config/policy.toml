@@ -1,0 +1,113 @@
+# Collections escalation policy
+# All thresholds are in DAYS PAST DUE (dpd) unless noted. Edit this file to
+# retune behaviour -- nothing in src/ should need to change.
+#
+# Design principles (see NOTES.md for the full reasoning):
+#   1. Escalation intensity scales with amount. A $340 invoice should never
+#      reach the CEO. A $30k invoice should reach a human fast.
+#   2. Every tier above "controller" requires human sign-off before send.
+#      The agent drafts; a person decides to put a customer's CEO or owner
+#      in their inbox.
+#   3. Any inbound reply that isn't a plain "will pay" confirmation freezes
+#      the automatic cadence for that invoice. Silence gets automation.
+#      A response gets a human.
+#   4. Minimum gap between contacts prevents the exact failure the pack
+#      documents in 07_reply.txt -- a customer who got 4 uncoordinated
+#      reminders for $340 and threatened to leave.
+
+[cadence]
+min_days_between_contacts = 6      # never re-contact the same invoice sooner
+min_days_between_contacts_small = 14   # small-dollar invoices get a slower, less naggy cadence
+max_auto_contacts_small = 3            # after this many unanswered auto-contacts on a small invoice,
+                                        # stop emailing and hold for a human call -- see NOTES.md.
+                                        # This threshold exists because the first version of this
+                                        # policy sent invoice INV-2177 ($314) nine automated reminders
+                                        # over six weeks before the customer's angry reply forced a
+                                        # hold -- the exact pattern the customer complained about in
+                                        # the pack. More emails is not the answer for a small balance
+                                        # that isn't responding; a phone call or a write-off decision is.
+pre_due_reminder_days = 5          # friendly heads-up before due date
+lookback_days_for_dupe_suppression = 3
+
+[amount_bands]
+# Escalation ceiling by invoice amount. An invoice can never auto-escalate
+# past the ceiling tier for its band regardless of dpd.
+small_max = 1000          # ceiling: controller
+medium_max = 15000        # ceiling: ceo (hold)
+# anything above medium_max is "large" -- ceiling: owner (hold)
+
+[[tiers]]
+name = "pre_due_notice"
+dpd_min = -5
+dpd_max = -1
+recipient = "ap_contact"
+cc = []
+auto_send = true
+min_band = "small"
+
+[[tiers]]
+name = "first_reminder"
+dpd_min = 0
+dpd_max = 7
+recipient = "ap_contact"
+cc = []
+auto_send = true
+min_band = "small"
+
+[[tiers]]
+name = "second_reminder"
+dpd_min = 8
+dpd_max = 20
+recipient = "ap_contact"
+cc = ["controller"]
+auto_send = true
+min_band = "small"
+
+[[tiers]]
+name = "controller_escalation"
+dpd_min = 21
+dpd_max = 35
+recipient = "controller"
+cc = ["ap_contact", "internal_sales_owner"]
+auto_send = true
+min_band = "small"
+
+[[tiers]]
+name = "ceo_escalation"
+dpd_min = 36
+dpd_max = 55
+recipient = "ceo"
+cc = ["controller", "internal_sales_owner"]
+auto_send = false          # always hold for human sign-off
+min_band = "medium"
+
+[[tiers]]
+name = "owner_escalation"
+dpd_min = 56
+dpd_max = 999999
+recipient = "owner"
+cc = ["ceo", "internal_sales_owner"]
+auto_send = false          # always hold for human sign-off
+min_band = "large"
+
+# Reply categories that freeze the automatic cadence for an invoice until a
+# human clears the hold. "confirmation_scheduled" is the one category that
+# does NOT freeze -- a customer saying "it's in this week's payment run" is
+# exactly what the cadence exists to extract, so we let the clock keep
+# running in case they don't follow through.
+[reply_handling]
+freezes_cadence = [
+    "dispute",
+    "legal_escalation",
+    "payment_plan_request",
+    "wrong_reference",
+    "document_request",
+    "paid_claim_unverified",
+    "hostile",
+    "bounce",
+    "ambiguous",
+]
+does_not_freeze = ["confirmation_scheduled", "auto_reply", "ticket_ack"]
+
+# paid_claim_verified (claim matches a real payment row) resolves the
+# invoice outright with no human step -- see reconciliation.py.

@@ -1,0 +1,10 @@
+From: mailer-daemon@ingleby.com
+Date: 2026-08-15
+Subject: Undeliverable: Invoice INV-2377
+
+Delivery to the following recipient failed permanently:
+
+  sam.ito@ingleby.com
+
+Technical details: 550 5.1.1 The email account that you tried to reach does
+not exist.

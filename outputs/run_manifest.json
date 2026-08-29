@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-08-29T10:50:51+00:00",
+  "data_dir": "D:\\Tech-Submit\\submission\\part1_collections_agent\\data",
+  "policy_file": "D:\\Tech-Submit\\submission\\part1_collections_agent\\config\\policy.toml",
+  "policy_sha256_16": "2f15fb57b2b42f6c",
+  "hold_overrides_file": "D:\\Tech-Submit\\submission\\part1_collections_agent\\config\\hold_overrides.csv",
+  "as_of": "2026-08-26",
+  "n_invoices": 432,
+  "n_replies": 20,
+  "n_hold_overrides_applied": 0,
+  "log_row_count": 1615,
+  "risk_flag_count": 44
+}

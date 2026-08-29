@@ -1,0 +1,6 @@
+From: ravi.menon@vantage.com
+Date: 2026-08-17
+Subject: RE: Invoice INV-2161
+
+The PO number on this invoice is wrong - it should be PO-77431, not the one
+shown. Our system auto-rejects on PO mismatch so this will need reissuing.
